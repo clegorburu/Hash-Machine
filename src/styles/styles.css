@@ -1,0 +1,512 @@
+*{font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.bg-success {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+  }
+
+ /* HEADER */
+
+.img-fluid{border-radius: 5px;
+            font-weight: bold;
+}
+
+
+.grid-container-head{
+    display: grid;
+    padding: 10px;
+    gap: 5px;
+    grid-column: 500px 800px;
+    grid-row: 100px 450px;
+}
+
+.grid-item-head:nth-child(1){
+    grid-column: 1/4;
+}
+
+.flex-item-head {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid-item-head:nth-child(1) img {
+    height: 70px;
+    width: 70px;
+    margin-top: -10px;
+    border-radius: 20px;
+}
+
+.grid-item-head:nth-child(1) h3 {
+    margin-top: 18px;
+}
+
+.grid-item-head:nth-child(2){
+    grid-column: 4/8;
+    align-items: center;
+    display: flex;
+    height: 100px;
+    margin-left: 25px;
+}
+
+
+.grid-item-head:nth-child(3){
+    background: blue;
+    grid-column: 8/12;
+    align-items: center;
+    display: flex;
+    height: 100px;
+}
+
+
+
+.grid-container {display: grid;
+    background-color: whitesmoke;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
+
+}
+
+.grid-item{background-color:aqua;
+}
+
+.grid-item:nth-child(1){
+    color: white;
+    height: 120px;
+    background:blue;
+    grid-column: 1/12;
+    border-radius: 10px;
+}
+
+.grid-container .grid-item .header img{ height: 60px;
+
+}
+
+.grid-item:nth-child(2){
+    /* background-image:url("https://statics.forbesargentina.com/2020/07/crop/5f172809ab91a__822x460.webp"); */
+    color: black;
+    background: white;
+    grid-column: 2/4;
+    height: 600px;
+}
+
+.grid-container .grid-item .header_menu {
+    list-style: none;
+}
+
+.grid-container .grid-item .header_menu a{ color: white;
+                                          text-decoration: none;
+                                          
+                                          
+
+
+}
+
+.grid-container .grid-item .header_menu{ text-align: right;
+                                         padding: 10px;
+}
+
+
+.grid-container .grid-item .header_menu a:hover{color: black;
+}
+
+.header_titulo{color: white;
+                font-size: 15px;
+}
+
+/* FIN HEADER */
+
+/* CONTENIDO INDEX */
+.grid-item:nth-child(3){
+    background-color: red;
+    color: black;
+    grid-column: 1/12;
+    grid-row: 5;
+    height: 900px;
+}
+
+.informacion_video{padding: 20px;
+                    width: 50p;
+                
+} 
+.grid-container-3 div#contenido1 iframe.video {
+    padding: 10px;
+    width: 100%; 
+    height:80%;
+    padding: 5px;
+}
+
+.grid-container-3 div#contenido1 h2{color: white;
+                                    text-align: center;
+
+}
+
+.grid-container-3 {
+    display: grid;
+    /* background: chartreuse; */
+    color: black;
+    width: 100%;
+}
+
+.grid-item-3 {
+    /* background: indigo; */
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 10px 10px;
+    padding: 20px;
+    gap: 20px 10px;
+}
+
+.grid-item-3:nth-child(1) {
+    background:linear-gradient(lightblue, blue, white);
+    grid-column: 1/8;
+    grid-row: 1/2;
+    text-align: justify;
+}
+.grid-item-3:nth-child(2) {
+    background: linear-gradient(lightblue,blue, white);
+    color: white;
+    grid-column: 8/12;
+    padding: 80px;
+    height: 400px;
+    text-align: justify
+}
+.grid-item-3:nth-child(3) {
+    background: rgb(1, 1, 31);
+    grid-column: 1/8;
+    grid-row: 2/12;
+    height: 300px;
+    color: white;
+    text-align: justify;
+    padding: 50px;
+}
+.grid-item-3:nth-child(4) {
+    background: rgb(1, 1, 31);
+    grid-column: 8/12;
+    height: 300px;
+    padding: 50px;
+    text-align: justify;
+    color: white;
+}
+
+.grid-container-4 {
+    display: grid;
+    background: rgb(71, 70, 134);
+    padding: 10px;
+    text-align: center;
+}
+
+.grid-item-2 h1{color: black;
+                background-color:white;
+                text-align: center ;
+}
+
+.grid-container-4 h3 {
+    color: white;
+    text-align: justify;
+   
+}
+
+.grid-item-4 {
+    /* background: darkblue; */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10px 10px;
+    padding: 10px;
+}
+
+.grid-item-4 img{
+    width: 100px;
+    height: 100px;
+}
+
+.grid-item-4:nth-child(1) {
+    grid-column: 1/3;
+    padding: 10px;
+    
+
+}
+.grid-item-4:nth-child(2) {
+    grid-column: 3/5;
+    justify-content: center;
+    position: relative;
+    left: 80px;
+    
+}
+.grid-item-4:nth-child(3) {
+    grid-column: 7/10;
+    position: relative;
+    left: 100px;
+   
+}
+.grid-item-4:nth-child(4) {
+    grid-column: 1/3;
+   
+}
+.grid-item-4:nth-child(5) {
+    grid-column: 3/5;
+    position: relative;
+    left: 80px;
+}
+
+.grid-item-4:nth-child(6) {
+    grid-column: 7/10;
+    position: relative;
+    left: 100px;
+}
+
+/* FIN CONTENIDO INDEX */
+
+/* GRID SHOP */
+.grid-container-shop {display: grid;
+    background-color: whitesmoke;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    height: 100%;
+}
+.grid-item-shop{background-color:aqua;
+                height: 500px;
+                width: 100%;
+}
+.grid-container-shop .grid-item-shop .header img{ height: 60px;
+
+}
+.grid-container-shop .grid-item-shop .header_menu a{ color: white;
+    text-decoration: none;
+}
+.grid-container-shop .grid-item-shop .header_menu{ text-align: right;
+   padding: 10px;
+}
+.grid-container-shop .grid-item-shop .header_menu a:hover{color: black;
+}
+
+.grid-item-shop:nth-child(1){background-image:url("https://statics.forbesargentina.com/2020/07/crop/5f172809ab91a__822x460.webp");
+    color: white;
+    height: 100px;
+}
+.grid-item-shop:nth-child(2){background-image:url("https://statics.forbesargentina.com/2020/07/crop/5f172809ab91a__822x460.webp");
+    color: black;
+    grid-column: 2/4;
+    height: 100px;
+}
+
+/* FIN GRID SHOP */
+
+.grid-item-contacto {background-color: blueviolet;
+}
+
+
+
+.contacto{
+    background: blue;
+    height: 100px;
+}
+.contacto_imagen{ height: 50px;
+    width: 50px;
+
+}
+.contacto-1{color: white;
+            font-size: 30px;
+            text-align: center;
+}
+.contacto-2{text-align: center;
+}
+
+.flex-container {display: flex;
+    background-color: #072457;
+    padding: 20px;
+    flex-direction: column;
+    width: 470px;
+    flex-wrap: nowrap;
+    gap: 2px;
+    justify-content: center;
+    position: relative;
+    left:300px;
+    justify-content: space-around;
+    align-content: stretch;
+
+}
+
+/* .flex-item{ width: 200px;
+height: 200px;
+color: wheat;
+
+} */
+
+.flex-item-p {position: relative;
+  left: 210px;
+  bottom: 130px;
+  font-style: initial;
+  width: 250px;
+  color: white;
+
+}
+
+.flex-shop {
+display: flex;
+background-image :url("https://statics.forbesargentina.com/2020/07/crop/5f172809ab91a__822x460.webp");
+padding: 20px;
+flex-direction: row;
+width: 800px;
+flex-wrap: wrap;
+position: relative;
+left:250px;
+align-items: baseline;
+align-content: flex-start;
+border-radius: 10px;
+
+}
+
+.flex-item-shop{ width: 250px;
+height: auto;
+color: white;
+font-weight: bolder;
+}
+
+.flex-item-shop img{ width: 190px;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#equipo {color: black;
+        position: relative;
+        top: 100px;
+}
+
+#titulo{text-align: center;
+        position: relative;
+        bottom: 60px;
+        left: 150px;
+}
+
+/* .minado{background-color: rgb(71, 70, 134);
+        width: 100%;
+
+} */
+
+.minado h1 {color: black;
+            text-align: center;
+}
+
+.minado-2{font-size: 20px;
+            width: 700px;
+            text-align: center;
+            position: relative;
+            left: 300px
+
+}
+
+
+.quienes-somos{text-align: center;
+
+}
+
+.parrafo {font-size: medium;
+    color:white;
+    background-color:black;
+    padding: 2px;
+    position: relative;
+    text-align: center;
+    font-size: small;
+}
+
+.preguntas {font-size: medium;
+      color: black;
+      padding: 10px;   
+      text-align: justify;         
+}
+
+.rig {font-style: italic;
+font-weight: bold;  
+padding: 10px
+
+}
+
+/* ABOUTS US */
+
+#preguntas { padding: 10px;
+             text-align: justify;
+             list-style: none;
+            
+}
+
+
+.desplegable{padding: 20px;
+             list-style: none;
+
+}
+
+.desplegable li { background-color: black;
+                  color: white;
+                  text-decoration: none;
+                  padding: 10px 15px;
+                  width: 700px;
+                  border-radius: 5px;
+
+}
+
+.desplegable li:hover{ background-color: grey;
+
+}
+
+.desplegable li.desplegable-2{display: none;
+}
+
+.desplegable > li { float: left;
+
+}
+
+.desplegable li > ul{display: none;
+                   position: absolute;
+
+}
+
+
+.desplegable li:hover > ul { display: none; 
+    
+}
+
+
+
+.desplegable-2 { list-style: none;
+                 padding: 10px;
+
+}
+
+.carousel-item{ height: 500px;             
+
+
+} 
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+
+
+.slider.slider-horizontal .slider-track {
+    height: 30px;
+    width: 50px;
+    margin-top: -5px;
+    top: 50%;
+    left: 0;
+}
+
+@media (max-widht:768px) {
+    #intro {width: 90%;
+    }
+    
+}
+
+
+
+ 
+
+
+
