@@ -15,6 +15,8 @@
 }
 
 
+
+
 .grid-container-head{
     display: grid;
     padding: 10px;
@@ -504,6 +506,34 @@ padding: 10px
     
 }
 
+.tienda {background-color: black;
+    text-align: center;
+    color: white;
+    height: 40px;
+    animation-name:mianimacion ;animation-duration: 4s;
+    animation-delay: 1s;
+    position: relative;
+    animation-direction: reverse;
+    animation-timing-function: ease;
+    animation-iteration-count: 2;
+}
+
+@keyframes mianimacion{
+0% {background-color: black;left:0px; top:0px}
+50%{background-color: blue;left: 300px;top:0px}
+75%{background-color: grey;left: 300px; top:50px}
+100%{background-color: #072457;left: 0px; top:0px;}
+
+}
+
+.imagen{border-radius: 5px;
+                   width: 30px;
+                   height: 30px; 
+}
+
+.card img:hover{ transform: scale(1.2,1.2);transition: all 1s;
+
+}
 
 
  
