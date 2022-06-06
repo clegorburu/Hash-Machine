@@ -1,7 +1,10 @@
-*{font-family: sans-serif;
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+*{font-family: safont-family: 'Abel', sans-serif;
+    font-family: 'Audiowide', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Montserrat', sans-serif;
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 .bg-success {
     --bs-bg-opacity: 1;
@@ -13,8 +16,6 @@
 .img-fluid{border-radius: 5px;
             font-weight: bold;
 }
-
-
 
 
 .grid-container-head{
@@ -408,8 +409,6 @@ font-weight: bolder;
 }
 
 .parrafo {font-size: medium;
-    color:white;
-    background-color:black;
     padding: 2px;
     position: relative;
     text-align: center;
@@ -506,26 +505,24 @@ padding: 10px
     
 }
 
-.tienda {background-color: black;
-    text-align: center;
-    color: white;
-    height: 40px;
-    animation-name:mianimacion ;animation-duration: 4s;
+.tienda {text-align: center;
+            height: 40px;
+  /*   animation-name:mianimacion ;animation-duration: 4s;
     animation-delay: 1s;
     position: relative;
     animation-direction: reverse;
     animation-timing-function: ease;
-    animation-iteration-count: 2;
+    animation-iteration-count: 2; */
 }
 
-@keyframes mianimacion{
+/* @keyframes mianimacion{
 0% {background-color: black;left:0px; top:0px}
 50%{background-color: blue;left: 300px;top:0px}
 75%{background-color: grey;left: 300px; top:50px}
 100%{background-color: #072457;left: 0px; top:0px;}
 
 }
-
+ */
 .imagen{border-radius: 5px;
                    width: 30px;
                    height: 30px; 
@@ -535,8 +532,39 @@ padding: 10px
 
 }
 
+.beneficios {text-align: center;
+}
 
+label.form-label {font-family: font-family: 'Abel', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Audiowide', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+button.accordion-button {color: white;
+                        background-color: #0D6EFD;
+
+}
  
+div.btn-group a {background-color:rgb(141, 225, 141);
+
+}
+
+div.card-body{background-color:#0D6EFD ;
+    color: white;
+
+}
+
+li.nav-item a {font-family: 'Abel', sans-serif;
+font-family: 'Audiowide', cursive;
+font-family: 'Black Ops One', cursive;
+font-family: 'Montserrat', sans-serif;
+    
+}
 
 
 
